@@ -41,8 +41,6 @@ It's easy to do powers too. Euler's identity states: $e^{ix} + 1 = 0$
 
 Pretty cool, huh?
 
-You can also convert from markdown to pdf. `convert.sh` is provided for you to convert your `answers.md` to `answers.pdf`. As the comment in the script says, you will need to install pandoc and latex, but its pretty convenient to be able to do so. You do not need to submit you answers in PDF format, but you may if you like.
-
 [Clone]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository
 [cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [latex syntax]: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
