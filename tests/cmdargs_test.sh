@@ -5,7 +5,7 @@ points=0
 echo "Running cmdargs test (4 pts)"
 echo
 
-gcc -g ../src/cmdargs.c -o cmdargs
+gcc ../src/cmdargs.c -o cmdargs
 exit=$?
 if [ $exit -eq 127 ] ; then
     echo "❌ cmdargs.c failed to compile"
