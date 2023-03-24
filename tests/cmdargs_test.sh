@@ -1,3 +1,5 @@
+#!/bin/sh
+
 points=0
 
 echo "Running cmdargs test (4 pts)"
