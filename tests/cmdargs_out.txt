@@ -1,0 +1,4 @@
+./cmdargs
+a
+b
+c
