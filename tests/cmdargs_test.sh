@@ -12,21 +12,21 @@ if [ $exit -eq 127 ] ; then
 fi
 
 expected_output=`cat cmdargs_out.txt`
-output=$(./cmdargs a b c)
+actual=$(./cmdargs a b c)
 exit=$?
 
 if [ $exit -ne 0 ] ; then
   echo "❌ Program exited with exit status $exit"
 fi
 
-if [ "$output" == "$expected_output" ] ; then
+if [ "$actual" == "$expected_output" ] ; then
   echo "✅ Output is correct"
   ((points=points+4))
   echo "Points: $points"
 else
   echo "❌ Output doesn't match expected."
   echo "Expected:\n$expected_output"
-  echo "Actual:\n$output"
+  echo "Actual:\n$actual"
   exit 1
 fi
 
