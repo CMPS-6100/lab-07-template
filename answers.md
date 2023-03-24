@@ -43,10 +43,10 @@ values are given in hexadecimal. Give your answers in decimal (base-10).
     and `arr[1]` tell you about the size of an integer? How many bytes of
     memory does an int require?
 
-## Command Line Arguments (4 pts)
+## Command Line Arguments (1 pts)
 
 5. Implement a program, `cmdargs.c` which takes in command line arguments and prints each one to stdout on a new line.
 
-## String Splitting (12 pts)
+## String Splitting (15 pts)
 
 6. Implement the function `parseline`. 

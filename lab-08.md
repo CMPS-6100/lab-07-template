@@ -465,9 +465,6 @@ arguments and prints each one to stdout on a new line.
     13
     ```
 
-    `cmdargs_test.sh` is provided in the `tests` directory for you to test your
-    program. See `tests/README.md` for instructions on how to run it.
-
 ## String Splitting
 
 In the next lab, you will implement your own tiny shell. One of the key subroutines is to take in a command entered as a string on the command 

@@ -1,15 +1,5 @@
 # Tests
 
-## `cmdargs`
-
-The shell script `cmdargs_test.sh` and the program `parseline_tests.c` are provided
-to test your `cmdargs` and `parseline` programs respectively.
-
-To run the cmdargs test, navigate into this `tests` directory on your shell.
-Then issue the command:
-
-`$ ./cmdargs_test.sh`
-
 ## `parseline`
 
 To execute the parseline_tests, first compile it:
