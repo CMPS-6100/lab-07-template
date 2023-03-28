@@ -86,6 +86,10 @@ Other useful commands:
     - `$ vi file.txt` opens file.txt in the vim text editor.
 - `git`: Issue any of the git commands to interact with a git repository.
 
+For an introduction to the shell, from the shell itself, issue the command:
+
+`$ man intro`
+
 ## Secrets
 
 In your home directory, I have hidden a secret directory with a secret file.
