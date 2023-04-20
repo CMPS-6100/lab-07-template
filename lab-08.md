@@ -108,7 +108,7 @@ value in `-0x4(%rbp)` at the end of the program is the final value of the operat
 it, and what is the final result of the operations? In assembly, the 
 values are given in hexadecimal. Give your answers in decimal (base-10).
 
-    **Enter your answers in answers.md**
+    **Enter your answers in answers.md (4 pts)**
 
 # Git on the Shell
 
@@ -292,7 +292,7 @@ int* ptr = &num;
 printf("%d\n", *ptr);
 ```
 
-3. We'll start our exploration of C by playing with variables and pointers. In `pointer.c`, declare and initialize two ints. Call them `num1` and `num2` and given them arbitrary different values.
+3. We'll start our exploration of C by playing with variables and pointers. In `pointer.c`, declare and initialize two ints. Call them `num1` and `num2` and given them arbitrary different values. **(2.5 pts)**
     
     a. Print out the memory addresses of `num1` and `num2`. What values did you assign to `num1` and `num2`? What are the memory addresses of `num1` and of `num2`?
 
@@ -344,7 +344,7 @@ printf("%d\n", arr[0])
 printf("%d\n", arr[9])
 ```
 
-4. In `array.c` the above array have been declared for you. Print out it's contents using a [`for` loop](https://www.tutorialspoint.com/cprogramming/c_for_loop.htm). 
+4. In `array.c` the above array have been declared for you. Print out it's contents using a [`for` loop](https://www.tutorialspoint.com/cprogramming/c_for_loop.htm). **(2.5 pts)**
 
     a. Record the contents of your array in answers.md.
 
@@ -456,7 +456,7 @@ argv[3]: "file.txt"
 this case, 4.
 
 5. Implement a program, `cmdargs.c` which takes in command line 
-arguments and prints each one to stdout on a new line.
+arguments and prints each one to stdout on a new line. **(1 pt)**
     
     Example output:
 
@@ -501,7 +501,7 @@ in the background, `0` if it should be run in the foreground.
 
 That's it.
 
-6. Implement the function `parseline`. 
+6. Implement the function `parseline`. **(15 pts)**
 
     `parseline` takes in two parameters: `const char* cmdline` and 
     `char* args[]`. `cmdline` is the command line to parse. `const` 
