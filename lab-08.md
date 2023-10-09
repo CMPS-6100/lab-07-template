@@ -18,11 +18,11 @@ You can connect to the server using `ssh`. `ssh`, or Secure SHell, is a terminal
 
 Connect to our server by opening a terminal and issuing the following command (replace `username` with your user name). `$` indicates a shell prompt. You do not need to type `$`. Your command begins with `ssh`.
 
-`$ ssh username@cmps-6100-lab.cs.tulane.edu`
+`$ ssh username@cmps-lab.cs.tulane.edu`
 
-For example, I would issue the command:
+For example:
 
-`$ ssh amaus@cmps-6100-lab.cs.tulane.edu`
+`$ ssh amaus@cmps-lab.cs.tulane.edu`
 
 You will be prompted for your password. Your password is set by default to be your student ID. Enter it and you will see a shell prompt logged in to the server for you. 
 
@@ -74,7 +74,8 @@ Most importantly:
 - `man`: Manual
     - Display the manual for a given program. e.g, `$ man ls` displays the manual for `ls`, giving a description of this program, a list of all command line arguments, and other information as well.
 - `help`: Help
-    - Display a list of the shell's built-in commands, or get help for an individual one of them. E.g, `$ help pwd` or `$help cd` displays the help information about `pwd` and `cd` respectively.
+    - Display a list of the shell's built-in commands, or get help for an individual one of them. 
+    E.g, `$ help pwd` or `$ help cd` displays the help information about `pwd` and `cd` respectively.
 
 Other useful commands:
 
@@ -112,7 +113,7 @@ values are given in hexadecimal. Give your answers in decimal (base-10).
 
 # Git on the Shell
 
-For the remainder of this lab, you will be implementing small C programs. To get the starter source, you will need to clone your repository to our `cmps-6100-lab` machine.
+For the remainder of this lab, you will be implementing small C programs. To get the starter source, you will need to clone your repository to our `cmps-lab` machine.
 
 In your home directory is a `labs`. This is where you can clone this and the following labs for this course.
 
