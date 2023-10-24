@@ -10,7 +10,7 @@ Refer back to the [README.md](README.md) for instruction on git, how to test you
 
 For this lab (and the following labs), we have provisioned a linux server for your use! If you are curious, this is a virtual machine provided in "the cloud" on Microsoft Azure.
 
-Our server gives you a linux environment to interact with and a common environment in which to implement the lab problems in this and future labs. I have created a user for you. Your username is your tulane username, and I have initialized your password to be your student ID. This isn't secure. You will have to change this!
+Our server gives you a linux environment to interact with and a common environment in which to implement the lab problems in this and future labs. We have created users for each of you. Your username is your tulane username, and your password has been initialized to be your student ID. This isn't secure. You will have to change this!
 
 The environment is solely text based. You will interact with it through a terminal, the most powerful interface to interact with and control computers. The first step will be to connect to it.
 
