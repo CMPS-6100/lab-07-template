@@ -259,7 +259,7 @@ E.g,
 ```c
 int num = 7; // declare and initialize on one line
 // printf is C's print function. It works similar to python's
-// formatted printing.. %p is a placeholder for a value to be
+// formatted printing. %p is a placeholder for a value to be
 // printed. The 'p' indicates that the value should be formatted
 // as a memory address. \n indicates to print a new line character
 // after the value.
