@@ -1,8 +1,8 @@
-# CMPS 6100  Lab 08
+# CMPS 6100  Lab 07
 
 In this lab, you will become acquainted with the shell and learn some C programming.
 
-To complete this lab, follow the instructions in [lab-08.md](lab-08.md) ([PDF version](lab-08.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
+To complete this lab, follow the instructions in [lab-07.md](lab-07.md) ([PDF version](lab-07.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
 - At the top of `answers.md` file, **include your name**.

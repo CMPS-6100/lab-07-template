@@ -1,4 +1,4 @@
-# CMPS 6100  Lab 08
+# CMPS 6100  Lab 07
 
 In this lab, you explore the shell and learn the basics of C programming.
 

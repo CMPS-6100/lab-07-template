@@ -1,9 +1,9 @@
-# CMPS 6100 Lab 08
+# CMPS 6100 Lab 07
 ## Answers
 
 **Name:** _________________________
 
-Place all written answers from `lab-08.md` here.
+Place all written answers from `lab-07.md` here.
 
 # Secrets (4 pts)
 
