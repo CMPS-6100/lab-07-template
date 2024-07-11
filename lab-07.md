@@ -102,10 +102,10 @@ you will find a section with the instructions that correspond to the main method
 Other sections have to do with the initialization and running of the program.
 
 In the main method, you see that a value is stored in a memory location, the
-location given as `-0x4(%rbp)`. Operations are performed on this value and the
-value in `-0x4(%rbp)` at the end of the program is the final value of the operations.
+location given as `[rbp-0x4]`. Operations are performed on this value and the
+value in `[rbp-0x4]` at the end of the program is the final value of the operations.
 
-1. What value is stored in `-0x4(%rbp)`, what operations are performed on 
+1. What value is stored in `[rbp-0x4]`, what operations are performed on 
 it, and what is the final result of the operations? In assembly, the 
 values are given in hexadecimal. Give your answers in decimal (base-10).
 
