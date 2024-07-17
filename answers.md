@@ -7,7 +7,7 @@ Place all written answers from `lab-07.md` here.
 
 # Secrets (4 pts)
 
-1. What value is stored in `-0x4(%rbp)`, what operations are performed on 
+1. What value is stored in `[rbp-0x4]`, what operations are performed on 
 it, and what is the final result of the operations? In assembly, the 
 values are given in hexadecimal. Give your answers in decimal (base-10).
 
