@@ -510,8 +510,8 @@ That's it.
     array where you will store each argument of the command line, 
     including the program to execute (see above). 
     
-    > `args` will declared outside of your function and passed in to 
-    it. Modifications you make to it will persist outside of your 
+    > `args` is declared and allocated outside of your function and passed
+    in to it. Modifications you make to it will persist outside of your 
     function. You do not need to and should not return `args`. 
     See `parseline_tests.c` for usage of your function.
 
