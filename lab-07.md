@@ -636,3 +636,9 @@ In the next lab, you will implement your own tiny shell. This will require
 some C programming (of course!) and also an understanding of the process
 model. You will use `fork` and `exec` to spin up chil processes to complete
 the jobs instructed on the command line.
+
+## Resources
+
+- [Harvard's CS50 Manual Page](https://manual.cs50.io/)
+- [Harvard's CS50 Duck AI](https://cs50.ai/)
+- [Stanford's Essential C](http://cslibrary.stanford.edu/101/)
