@@ -489,10 +489,10 @@ For example:
 Should be stored in an array as:
 
 ```
-args[0]: "./myprogram"
-args[1]: "2"
-args[2]: "input string"
-args[3]: "7"
+argv[0]: "./myprogram"
+argv[1]: "2"
+argv[2]: "input string"
+argv[3]: "7"
 ```
 
 Second, it needs to detect if the command given should run in the 
@@ -505,14 +505,14 @@ That's it.
 6. Implement the function `parseline`. **(15 pts)**
 
     `parseline` takes in two parameters: `const char* cmdline` and 
-    `char* args[]`. `cmdline` is the command line to parse. `const` 
-    indicates that this string may not be modified. `args` is the 
+    `char* argv[]`. `cmdline` is the command line to parse. `const` 
+    indicates that this string may not be modified. `argv` is the 
     array where you will store each argument of the command line, 
     including the program to execute (see above). 
     
-    > `args` is declared and allocated outside of your function and passed
+    > `argv` is declared and allocated outside of your function and passed
     in to it. Modifications you make to it will persist outside of your 
-    function. You do not need to and should not return `args`. 
+    function. You do not need to and should not return `argv`. 
     See `parseline_tests.c` for usage of your function.
 
     Your function should return `1` if the command should be run 

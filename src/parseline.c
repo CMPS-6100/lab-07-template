@@ -15,24 +15,24 @@ int parseline(const char *cmdline, char *argv[]);
  *  
  * Example usage:
  * 
- * char* args[MAXARGS];
- * parseline("./cmd arg1 arg2\n", args);
+ * char* argv[MAXARGS];
+ * parseline("./cmd arg1 arg2\n", argv);
  * 
- * After those calls, the values in args will be:
- * args[0]: "./cmd"
- * args[1]: "arg1"
- * args[2]: "arg2"
- * args[3]: NULL
+ * After those calls, the values in argv will be:
+ * argv[0]: "./cmd"
+ * argv[1]: "arg1"
+ * argv[2]: "arg2"
+ * argv[3]: NULL
  * 
- * char* args[MAXARGS];
+ * char* argv[MAXARGS];
  * parseline("./cmd arg1 &\n", args);
  * 
- * After those calls, the values in args will be:
- * args[0]: "./cmd"
- * args[1]: "arg1"
- * args[2]: NULL
+ * After those calls, the values in argv will be:
+ * argv[0]: "./cmd"
+ * argv[1]: "arg1"
+ * argv[2]: NULL
  */
-int parseline(const char *cmdline, char* args[]) 
+int parseline(const char *cmdline, char* argv[]) 
 {
     // cmdline can not be modified. It could be useful to have a
     // local copy which you can modify.
