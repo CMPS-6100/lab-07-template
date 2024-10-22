@@ -12,7 +12,7 @@
 void printargs(char* args[]);
 
 int main(int argc, char* argv[]){
-    char* args[MAXLINE];
+    char* args[MAXARGS];
     char* line = "Hello World\n";
     parseline(line, args);
     printargs(args);
