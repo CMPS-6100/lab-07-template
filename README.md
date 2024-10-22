@@ -6,7 +6,28 @@ To complete this lab, follow the instructions in [lab-07.md](lab-07.md) ([PDF ve
 
 ## Turning in your work
 - At the top of `answers.md` file, **include your name**.
-- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this lab. 
+- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this lab.
+- Upload your completed lab to gradescope. 
+
+### Gradescope
+
+The easiest way to submit to gradescope is to compress the contents of your lab and upload that archive to gradescope. Specifically, if your lab directory structure is:
+
+```
+lab-XX/
+  README.md
+  answers.md
+  lab-XX.md
+  lab-XX.pdf
+  src/
+    main.py
+  tests/
+    test_main.py
+```
+
+you need to compress *the contents* of `lab-XX`, not `lab-XX` itself.
+
+When uploading, the directory structure of the lab must be maintained in your submission. E.g., the `src` directory with your source file(s) inside of it must be uploaded.
 
 ## Using Git 
 - [Clone] your lab repository.
