@@ -117,13 +117,58 @@ For the remainder of this lab, you will be implementing small C programs. To get
 
 In your home directory is a `labs`. This is where you can clone this and the following labs for this course.
 
+## Setting up SSH Authentication
+
+Before you can clone on the server, there is some preliminary setup to do.
+
+Don't worry, this will be easy.
+
+`ssh` is both a program to remotely login to a server and an automatic 
+authentication protocal. We will set up ssh authentication so that you can 
+easily and securely connect to github from the server
+
+1. ssh into the server
+2. Generate ssh keys with the command
+
+    `$ ssh-keygen`
+
+    - This will prompt you for a location and then a passphrase. Hit enter
+    for all three prompts to use system defaults.
+    - Once complete, this command will have generated a key pair for you
+    containing a public and private key. We will upload your public key to
+    github. Never share your private key with anyone.
+3. Copy your public key.
+    - Navigate into `~/.ssh`
+
+        `$ cd ~/.ssh`
+
+    - Display the contents of your public key. There will be two identically
+    named files, one with a `.pub` extension and one without. the `.pub` file
+    is your public key. Run the following command to display its contents.
+
+        `$ cat PUBKEY.pub`
+
+    - Substitute `PUBKEY` with the filename for your public key.
+    - Copy the text of your public key.
+4. Add your public key to github
+    - On github, go to your account settings/"SSH and GPG keys"
+    - Click on "New SSH key"
+    - Paste your public key contents into the "Key" box.
+    - Enter enything you like into the "Title" box. I usually use this field
+    to indicate the computer this public key belongs to, in this case: 
+    cmps-server
+    - Click "Add SSH key"
+
+You have now added your ssh key to your github account. Now you can use
+SSH clone links to clone your repositories onto the server.
+
 ## Clone your repository
 
 To clone your repository for this lab:
 
 - Navigate into your `labs` directory
 
-- Copy your `HTTPS` clone link from GitHub.
+- Copy your `SSH` clone link from GitHub.
 
 - Inside of your labs directory, issue the following command:
 
