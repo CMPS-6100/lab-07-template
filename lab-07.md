@@ -124,7 +124,7 @@ Before you can clone on the server, there is some preliminary setup to do.
 Don't worry, this will be easy.
 
 `ssh` is both a program to remotely login to a server and an automatic 
-authentication protocal. We will set up ssh authentication so that you can 
+authentication protocol. We will set up ssh authentication so that you can 
 easily and securely connect to github from the server
 
 1. ssh into the server
@@ -154,7 +154,7 @@ easily and securely connect to github from the server
     - On github, go to your account settings/"SSH and GPG keys"
     - Click on "New SSH key"
     - Paste your public key contents into the "Key" box.
-    - Enter enything you like into the "Title" box. I usually use this field
+    - Enter anything you like into the "Title" box. I usually use this field
     to indicate the computer this public key belongs to, in this case: 
     cmps-server
     - Click "Add SSH key"
