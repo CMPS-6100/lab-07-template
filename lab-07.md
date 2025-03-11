@@ -148,7 +148,7 @@ easily and securely connect to github from the server
 
         `$ cat PUBKEY.pub`
 
-    - Substitute `PUBKEY` with the filename for your public key.
+        - Substitute `PUBKEY` with the filename for your public key.
     - Copy the text of your public key.
 4. Add your public key to github
     - On github, go to your account settings/"SSH and GPG keys"
