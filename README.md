@@ -6,8 +6,9 @@ To complete this lab, follow the instructions in [lab-07.md](lab-07.md) ([PDF ve
 
 ## Turning in your work
 - At the top of `answers.md` file, **include your name**.
-- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this lab.
-- Upload your completed lab to gradescope. 
+- Once you have pushed your final submission to GitHub, go to Canvas and submit
+your source file(s) to gradescope to be autograded. There is a gradescope
+button at the bottom of the assignment page.
 
 ### Gradescope
 
