@@ -27,7 +27,7 @@ For example:
 
 `$ ssh amaus@cmps-lab.cs.tulane.edu`
 
-You will be prompted for your password. Your password is your tulane account password.
+You will be prompted for your password. Your password is your Tulane account password.
 
 # What is a shell?
 
