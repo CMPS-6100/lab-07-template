@@ -16,6 +16,9 @@ The environment is solely text based. You will interact with it through a termin
 
 You can connect to the server using `ssh`. `ssh`, or Secure SHell, is a terminal program that allows you to remotely login to other computers.
 
+> Note: Before connecting to our server, you must connect to Tulane's VPN.
+> See [it.tulane.edu/virtual-private-network-vpn](https://it.tulane.edu/virtual-private-network-vpn) for instructions on connecting.
+
 Connect to our server by opening a terminal and issuing the following command (replace `username` with your user name). `$` indicates a shell prompt. You do not need to type `$`. Your command begins with `ssh`.
 
 `$ ssh username@cmps-lab.cs.tulane.edu`
@@ -24,13 +27,7 @@ For example:
 
 `$ ssh amaus@cmps-lab.cs.tulane.edu`
 
-You will be prompted for your password. Your password is set by default to be your student ID. Enter it and you will see a shell prompt logged in to the server for you. 
-
-Change you password! Your default password is not secure. Once logged in, issue the command:
-
-`$ passwd`
-
-This will prompt you to enter a password. Choose and set a secure password for your account. If you don't, and we have any hackers break in though your account, we will know you didn't choose a secure password!
+You will be prompted for your password. Your password is your tulane account password.
 
 # What is a shell?
 
