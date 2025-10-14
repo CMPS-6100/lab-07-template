@@ -159,6 +159,13 @@ easily and securely connect to github from the server
 You have now added your ssh key to your github account. Now you can use
 SSH clone links to clone your repositories onto the server.
 
+> Note: you can do a very similar process to generate ssh keys on your local
+> machine and add them to our server so that you can be automatically
+> authenticated. This will eliminate needing to enter your password when
+> loggin in. Quick overview is that you will generate ssh keys on your local
+> machine then copy the contents of your public key into a 
+> `~/.ssh/authorized_keys file on the server. AI can give specific instructions.
+
 ## Clone your repository
 
 To clone your repository for this lab:
@@ -564,7 +571,7 @@ That's it.
     Any argument enclosed in single quotes should be treated as a 
     single argument.
 
-    > Advise: Start small and work your way up. Given the string 
+    > Advice: Start small and work your way up. Given the string 
     > `"hello world"`, can you split it into two strings by appropriately 
     > placing a `\0` character (to indicate the end of "hello") and 
     > getting pointers to be beginning of each word? 
